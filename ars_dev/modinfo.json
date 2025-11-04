@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "ars_dev",
+    "name": "<color_pink>Ars Dev</color>",
+    "authors": [ "Arisu-sensei" ],
+    "description": "Test mod for things I'm adding to the main codebase.",
+    "category": "content",
+    "dependencies": [ "bn" ]
+  }
+]
