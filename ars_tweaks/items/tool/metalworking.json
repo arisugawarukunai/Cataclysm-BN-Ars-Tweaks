@@ -1,0 +1,96 @@
+[
+  {
+    "id": "forge_kit",
+    "type": "TOOL",
+    "category": "tools_workshop",
+    "name": { "str": "forge kit" },
+    "description": "A complete set of tools with everything one might need for metalworking on a forge.",
+    "looks_like": "toolbox",
+
+    "weight": "5000 g",
+    "volume": "5000 ml",
+    "price": 25000,
+    "price_postapoc": 400,
+
+    "to_hit": 1,
+    "bashing": 10,
+
+    "material": "steel",
+    "symbol": ";",
+    "color": "light_gray",
+
+    "ammo": "thread",
+    "initial_charges": 50,
+    "max_charges": 600,
+    "charges_per_use": 1,
+
+    "qualities": [
+      [ "SWAGING", 1 ],
+      [ "CASING_FORMING", 1 ],
+      [ "COOK", 1 ],
+      [ "GRIP_HOT", 2 ],
+      [ "CHEM", 1 ],
+      [ "BOIL", 2 ],
+      [ "CONTAIN", 1 ],
+      [ "CONTAIN_HOT", 1 ],
+      [ "HAMMER", 3 ],
+      [ "PRY", 1 ],
+      [ "HAMMER_FINE", 1 ]
+    ],
+    "use_action": [
+      "HAMMER",
+      "CROWBAR",
+      {
+        "type": "sew_advanced",
+        "materials": [
+          "bone",
+          "bone_heavy",
+
+          "chitin",
+          "acidchitin",
+          "scute",
+
+          "stone",
+          "wood",
+
+          "iron",
+          "steel",
+          "budget_steel",
+          "hardsteel",
+          "aluminum",
+          "copper",
+          "bronze",
+          "silver",
+          "gold",
+          "platinum",
+          "lead",
+          "tin",
+          "zinc",
+
+          "superalloy"
+        ],
+        "skill": "fabrication",
+        "clothing_mods": [
+          "leather_padded",
+          "steel_padded",
+          "hard_steel_padded",
+          "alloy_padded",
+
+          "kevlar_padded",
+          "nomex_padded",
+          "furred",
+          "wooled",
+
+          "resized_large",
+          "resized_small",
+          "pocketed"
+        ]
+      }
+    ],
+
+    "flags": [
+      "DURABLE_MELEE",
+      "ALLOWS_REMOTE_USE"
+    ]
+  }
+]

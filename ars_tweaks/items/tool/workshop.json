@@ -1,0 +1,271 @@
+[
+  {
+    "id": "toolbox_basic",
+    "type": "GENERIC",
+    "category": "tools_workshop",
+    "name": { "str": "basic toolbox", "str_pl": "basic toolboxes" },
+    "description": "This is a simple wooden box containing basic tools, suitable only for the simplest use-cases.",
+    "looks_like": "toolbox",
+
+    "weight": "5236 g",
+    "volume": "750 ml",
+    
+    "price": 3190,
+    "price_postapoc": 1250,
+    
+    "to_hit": -2,
+    "bashing": 4,
+    
+    "material": "wood",
+    "symbol": ";",
+    "color": "brown",
+    
+    "qualities": [
+      [ "CUT", 1 ],
+      [ "CUT_FINE", 1 ],
+      [ "BUTCHER", 11 ],
+      [ "HAMMER", 3 ],
+      [ "PRY", 1 ],
+      [ "HAMMER_FINE", 1 ],
+      [ "SAW_W", 1 ],
+      [ "SAW_M", 1 ],
+      [ "WRENCH", 1 ],
+      [ "SCREW", 1 ],
+      [ "SCREW_FINE", 1 ],
+      [ "CUT_M", 1 ],
+      [ "PULL_FINE", 2 ]
+    ],
+    "use_action": [
+      "HAMMER",
+      "CROWBAR"
+    ]
+  },
+  {
+    "id": "toolbox_engineer",
+    "type": "GENERIC",
+    "category": "tools_workshop",
+    "name": { "str": "engineer's toolbox", "str_pl": "engineer's toolboxes" },
+    "description": "This is a heavy well made metal box containing an extended tool kit, suitable for maintenance, construction, fabrication and even advanced engineering work.",
+    "looks_like": "toolbox_workshop",
+
+    "weight": "6389 g",
+    "volume": "3500 ml",
+
+    "price": 20000,
+    "price_postapoc": 5000,
+
+    "to_hit": -2,
+    "bashing": 12,
+
+    "material": "steel",
+    "symbol": ";",
+    "color": "blue",
+
+    "qualities": [
+      [ "BUTCHER", 11 ],
+      [ "CUT", 1 ],
+      [ "HAMMER", 3 ],
+      [ "HAMMER_FINE", 1 ],
+      [ "SAW_M", 2 ],
+      [ "SAW_W", 2 ],
+      [ "SAW_M_FINE", 1 ],
+      [ "AXE", 2 ],
+      [ "WRENCH", 2 ],
+      [ "WRENCH_FINE", 1 ],
+      [ "SCREW", 1 ],
+      [ "SCREW_FINE", 1 ],
+      [ "PRY", 1 ],
+      [ "FILE", 2 ],
+      [ "REAM", 1 ],
+      [ "SANDING", 2 ],
+      [ "DRILL", 2 ],
+      [ "PULL", 1 ],
+      [ "PULL_FINE", 2 ],
+      [ "CUT_M", 1 ],
+      [ "HV_INSULATION", 1 ],
+      [ "VISE", 1 ],
+      [ "LOCKPICK", 5 ],
+      [ "HOSE", 1 ],
+      [ "VOLT_MEASURE", 1 ],
+      [ "GRIP_HOT", 1 ]
+    ],
+    "use_action": [
+      "HAMMER",
+      "CROWBAR"
+    ]
+  },
+  {
+    "id": "toolbox_advanced",
+    "type": "GENERIC",
+    "category": "tools_workshop",
+    "name": { "str": "advanced toolbox", "str_pl": "advanced toolboxes" },
+    "description": "This is a fully equipped toolbox, its body and the tools inside have all been refitted with superalloy, keeping its full utility for less overall weight.",
+    "looks_like": "toolbox_workshop",
+
+    "weight": "4000 g",
+    "volume": "3500 ml",
+    
+    "price": 500000,
+    "price_postapoc": 10000,
+    
+    "to_hit": -1,
+    "bashing": 12,
+    
+    "material": "superalloy",
+    "symbol": ";",
+    "color": "blue",
+
+    "ammo": "battery",
+    "charges_per_use": 1,
+    "magazines": [
+      [
+        "battery",
+        [
+          "medium_battery_cell",
+          "medium_plus_battery_cell",
+          "medium_atomic_battery_cell",
+          "medium_disposable_cell"
+        ]
+      ]
+    ],
+    "magazine_well": "500 ml",
+
+    "qualities": [
+      [ "BUTCHER", 11 ],
+      [ "CUT", 1 ],
+      [ "HAMMER", 3 ],
+      [ "HAMMER_FINE", 1 ],
+      [ "SAW_M", 2 ],
+      [ "SAW_W", 2 ],
+      [ "SAW_M_FINE", 1 ],
+      [ "AXE", 2 ],
+      [ "WRENCH", 2 ],
+      [ "WRENCH_FINE", 1 ],
+      [ "SCREW", 1 ],
+      [ "SCREW_FINE", 1 ],
+      [ "PRY", 1 ],
+      [ "FILE", 2 ],
+      [ "REAM", 1 ],
+      [ "SANDING", 2 ],
+      [ "DRILL", 2 ],
+      [ "PULL", 1 ],
+      [ "PULL_FINE", 2 ],
+      [ "CUT_M", 1 ],
+      [ "HV_INSULATION", 1 ],
+      [ "VISE", 1 ],
+      [ "LOCKPICK", 5 ],
+      [ "HOSE", 1 ],
+      [ "VOLT_MEASURE", 1 ],
+      [ "GRIP_HOT", 1 ],
+      [ "JACK", 16 ],
+      [ "GRIND", 2 ],
+      [ "GLASSBLOWING", 1 ]
+    ],
+    "use_action": [
+      "HAMMER",
+      "CROWBAR",
+      "HACKSAW"
+    ]
+  },
+  {
+    "id": "toolbox_backpack",
+    "type": "ARMOR",
+    "category": "tools_workshop",
+    "name": { "str": "MOLLE tool pack", "str_pl": "MOLLE tool packs" },
+    "description": "A all-in-one tool pack, stocked to the brim with everything you might ever need. While that makes it impossible to use it as a backpack, its utility is undeniable. More tools have been made refitted with superalloy, and a Halligan bar and entrenching tool combo hang from the side.",
+    "looks_like": "molle_pack",
+
+    "weight": "6000 g",
+    "volume": "2500 ml",
+
+    "price": 1000000,
+    "price_postapoc": 20000,
+
+    "material": [ "cotton", "kevlar", "superalloy" ],
+    "symbol": "[",
+    "color": "green",
+    "repairs_like": "bigback",
+
+    "covers": [
+      "torso"
+    ],
+    "coverage": 18,
+    "rigid": true,
+    "encumbrance": 8,
+    "warmth": 10,
+    "material_thickness": 2,
+    "valid_mods": [
+      "resized_large",
+      "resized_small"
+    ],
+    "flags": [
+      "BELTED",
+      "WATER_FRIENDLY",
+      "ALLOWS_WINGS"
+    ],
+
+    "ammo": "battery",
+    "charges_per_use": 1,
+    "magazines": [
+      [
+        "battery",
+        [
+          "medium_battery_cell",
+          "medium_plus_battery_cell",
+          "medium_atomic_battery_cell",
+          "medium_disposable_cell"
+        ]
+      ]
+    ],
+    "magazine_well": "500 ml",
+
+    "qualities": [
+      [ "COOK", 3 ],
+      [ "BOIL", 2 ],
+      [ "CONTAIN", 1 ],
+      [ "CHEM", 1 ],
+      [ "BUTCHER", 37 ],
+      [ "CUT", 1 ],
+      [ "HAMMER", 3 ],
+      [ "HAMMER_FINE", 1 ],
+      [ "SAW_M", 2 ],
+      [ "SAW_W", 2 ],
+      [ "SAW_M_FINE", 1 ],
+      [ "AXE", 2 ],
+      [ "WRENCH", 2 ],
+      [ "WRENCH_FINE", 1 ],
+      [ "SCREW", 1 ],
+      [ "SCREW_FINE", 1 ],
+      [ "PRY", 4 ],
+      [ "FILE", 2 ],
+      [ "REAM", 1 ],
+      [ "SANDING", 2 ],
+      [ "PULL", 2 ],
+      [ "PULL_FINE", 2 ],
+      [ "CUT_M", 1 ],
+      [ "HV_INSULATION", 1 ],
+      [ "VISE", 1 ],
+      [ "LOCKPICK", 5 ],
+      [ "HOSE", 1 ],
+      [ "VOLT_MEASURE", 1 ],
+      [ "GRIP_HOT", 1 ],
+      [ "JACK", 16 ],
+      [ "GRIND", 2 ],
+      [ "GLASSBLOWING", 1 ],
+      [ "CHISEL", 3 ],
+      [ "DRILL", 3 ],
+      [ "CASING_FORMING", 1 ],
+      [ "DIG", 3 ],
+      [ "PRESSURIZATION", 1 ]
+    ],
+    "use_action": [
+      "HAMMER",
+      "CROWBAR",
+      "HACKSAW",
+      "HOTPLATE",
+      "HEAT_FOOD",
+      "GUN_CLEAN",
+      "GUN_REPAIR"
+    ]
+  }
+]

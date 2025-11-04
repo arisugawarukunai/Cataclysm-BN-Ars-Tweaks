@@ -1,0 +1,14 @@
+[
+  {
+    "result": "bandolier_heavy_knife",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "time": "2 h 00 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 10 ] ],
+    "components": [ [ [ "leather", 16 ] ] ]
+  }
+]

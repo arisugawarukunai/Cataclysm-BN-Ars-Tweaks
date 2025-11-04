@@ -1,0 +1,654 @@
+[
+  {
+    "result": "shield_bulette_heavy",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SHIELD",
+
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "20 m",
+    "skills_required": [
+      [ "fabrication", 4 ],
+      [ "spellcraft", 2 ],
+      [ "tailor", 2 ]
+    ],
+    "reversible": false,
+
+    "autolearn": false,
+    "book_learn": [
+      [ "magic_armormaking" , 6 ],
+      [ "bulette_bullet_theory" , 8 ]
+    ],
+
+    "qualities": [
+      { "id": "CUT" , "level": 1 },
+      { "id": "LEATHER_AWL", "level": 1 },
+      { "id": "HAMMER" , "level": 3 },
+
+      { "id": "CHISEL" , "level": 1 },
+      { "id": "SANDING" , "level": 1 }
+    ],
+    "components": [
+      [ [ "bulette_plate", 1 ] ],
+      [ [ "bulette_pearl", 1 ] ],
+
+      [ [ "nail", 4 ] ],
+      [ [ "leather", 4 ] ]
+    ]
+  },
+  {
+    "result": "shield_bulette_medium",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SHIELD",
+
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "40 m",
+    "skills_required": [
+      [ "fabrication", 4 ],
+      [ "spellcraft", 2 ],
+      [ "tailor", 2 ]
+    ],
+    "reversible": false,
+
+    "autolearn": false,
+    "book_learn": [
+      [ "magic_armormaking" , 6 ],
+      [ "bulette_bullet_theory" , 8 ]
+    ],
+
+    "qualities": [
+      { "id": "CUT" , "level": 1 },
+      { "id": "LEATHER_AWL", "level": 1 },
+      { "id": "HAMMER" , "level": 3 },
+
+      { "id": "CHISEL" , "level": 1 },
+      { "id": "SANDING" , "level": 1 }
+    ],
+    "components": [
+      [ [ "bulette_plate", 1 ] ],
+      [ [ "bulette_pearl", 1 ] ],
+
+      [ [ "nail", 4 ] ],
+      [ [ "leather", 4 ] ]
+    ]
+  },
+  {
+    "result": "shield_bulette_light",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SHIELD",
+
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "1 h",
+    "skills_required": [
+      [ "fabrication", 4 ],
+      [ "spellcraft", 2 ],
+      [ "tailor", 2 ]
+    ],
+    "reversible": false,
+
+    "autolearn": false,
+    "book_learn": [
+      [ "magic_armormaking" , 6 ],
+      [ "bulette_bullet_theory" , 8 ]
+    ],
+
+    "qualities": [
+      { "id": "CUT" , "level": 1 },
+      { "id": "LEATHER_AWL", "level": 1 },
+      { "id": "HAMMER" , "level": 3 },
+      
+      { "id": "CHISEL" , "level": 1 },
+      { "id": "SANDING" , "level": 1 }
+    ],
+    "components": [
+      [ [ "bulette_plate", 1 ] ],
+      [ [ "bulette_pearl", 1 ] ],
+
+      [ [ "nail", 4 ] ],
+      [ [ "leather", 4 ] ]
+    ]
+
+  },
+
+  {
+    "result": "shield_bulette_alloy_heavy",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SHIELD",
+
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "1 h",
+    "skills_required": [
+      [ "fabrication", 5 ],
+      [ "spellcraft", 4 ],
+      [ "tailor", 2 ]
+    ],
+    "reversible": false,
+
+    "autolearn": false,
+    "book_learn": [
+      [ "magic_armormaking" , 6 ],
+      [ "bulette_bullet_theory" , 8 ]
+    ],
+
+    "qualities": [
+      { "id": "CUT" , "level": 1 },
+      { "id": "LEATHER_AWL", "level": 1 },
+      { "id": "HAMMER" , "level": 3 },
+
+      { "id": "CHISEL" , "level": 1 },
+      { "id": "SANDING" , "level": 2 },
+      { "id": "FILE" , "level": 2 },
+      
+      { "id": "GLARE", "level": 2 }
+    ],
+    "tools": [ 
+      [ [ "welder", 10 ], [ "toolset", 15 ], [ "oxy_torch", 2 ] ]
+    ] ,
+    "components": [
+      [ [ "bulette_plate", 1 ] ],
+      [ [ "bulette_pearl", 1 ] ],
+
+      [ [ "alloy_sheet", 3 ] ],
+
+      [ [ "nail", 4 ] ],
+      [ [ "leather", 4 ] ]
+    ]
+  },
+  {
+    "result": "shield_bulette_alloy_heavy",
+    "id_suffix": "_upgrade_alloy",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SHIELD",
+
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "40 m",
+    "skills_required": [
+      [ "fabrication", 5 ],
+      [ "spellcraft", 4 ],
+      [ "tailor", 2 ]
+    ],
+    "reversible": false,
+
+    "autolearn": false,
+    "book_learn": [
+      [ "magic_armormaking" , 6 ],
+      [ "bulette_bullet_theory" , 8 ]
+    ],
+
+    "qualities": [
+      { "id": "HAMMER" , "level": 3 },
+      { "id": "SANDING" , "level": 2 },
+      { "id": "FILE" , "level": 2 },
+      
+      { "id": "GLARE", "level": 2 }
+    ],
+    "tools": [ 
+      [ [ "welder", 10 ], [ "toolset", 15 ], [ "oxy_torch", 2 ] ]
+    ] ,
+    "components": [
+      [ [ "shield_bulette_heavy", 1 ] ],
+
+      [ [ "alloy_sheet", 3 ] ]
+    ]
+  },
+  {
+    "result": "shield_bulette_alloy_medium",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SHIELD",
+
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "1 h 20 m",
+    "skills_required": [
+      [ "fabrication", 5 ],
+      [ "spellcraft", 4 ],
+      [ "tailor", 2 ]
+    ],
+    "reversible": false,
+
+    "autolearn": false,
+    "book_learn": [
+      [ "magic_armormaking" , 6 ],
+      [ "bulette_bullet_theory" , 8 ]
+    ],
+
+    "qualities": [
+      { "id": "CUT" , "level": 1 },
+      { "id": "LEATHER_AWL", "level": 1 },
+      { "id": "HAMMER" , "level": 3 },
+
+      { "id": "CHISEL" , "level": 1 },
+      { "id": "SANDING" , "level": 2 },
+      { "id": "FILE" , "level": 2 },
+      
+      { "id": "GLARE", "level": 2 }
+    ],
+    "tools": [ 
+      [ [ "welder", 10 ], [ "toolset", 15 ], [ "oxy_torch", 2 ] ]
+    ] ,
+    "components": [
+      [ [ "bulette_plate", 1 ] ],
+      [ [ "bulette_pearl", 1 ] ],
+
+      [ [ "alloy_sheet", 2 ] ],
+
+      [ [ "nail", 4 ] ],
+      [ [ "leather", 4 ] ]
+    ]
+  },
+  {
+    "result": "shield_bulette_alloy_medium",
+    "id_suffix": "_upgrade_alloy",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SHIELD",
+
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "40 m",
+    "skills_required": [
+      [ "fabrication", 5 ],
+      [ "spellcraft", 4 ],
+      [ "tailor", 2 ]
+    ],
+    "reversible": false,
+
+    "autolearn": false,
+    "book_learn": [
+      [ "magic_armormaking" , 6 ],
+      [ "bulette_bullet_theory" , 8 ]
+    ],
+
+    "qualities": [
+      { "id": "HAMMER" , "level": 3 },
+      { "id": "SANDING" , "level": 2 },
+      { "id": "FILE" , "level": 2 },
+      
+      { "id": "GLARE", "level": 2 }
+    ],
+    "tools": [ 
+      [ [ "welder", 10 ], [ "toolset", 15 ], [ "oxy_torch", 2 ] ]
+    ] ,
+    "components": [
+      [ [ "shield_bulette_medium", 1 ] ],
+
+      [ [ "alloy_sheet", 2 ] ]
+    ]
+  },
+  {
+    "result": "shield_bulette_alloy_light",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SHIELD",
+
+
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "1 h 40 m",
+    "skills_required": [
+      [ "fabrication", 5 ],
+      [ "spellcraft", 4 ],
+      [ "tailor", 2 ]
+    ],
+    "reversible": false,
+
+    "autolearn": false,
+    "book_learn": [
+      [ "magic_armormaking" , 6 ],
+      [ "bulette_bullet_theory" , 8 ]
+    ],
+
+    "qualities": [
+      { "id": "CUT" , "level": 1 },
+      { "id": "LEATHER_AWL", "level": 1 },
+      { "id": "HAMMER" , "level": 3 },
+
+      { "id": "CHISEL" , "level": 1 },
+      { "id": "SANDING" , "level": 2 },
+      { "id": "FILE" , "level": 2 },
+      
+      { "id": "GLARE", "level": 2 }
+    ],
+    "tools": [ 
+      [ [ "welder", 10 ], [ "toolset", 15 ], [ "oxy_torch", 2 ] ]
+    ] ,
+    "components": [
+      [ [ "bulette_plate", 1 ] ],
+      [ [ "bulette_pearl", 1 ] ],
+
+      [ [ "alloy_sheet", 1 ] ],
+
+      [ [ "nail", 4 ] ],
+      [ [ "leather", 4 ] ]
+    ]
+  },
+  {
+    "result": "shield_bulette_alloy_light",
+    "id_suffix": "_upgrade_alloy",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SHIELD",
+
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "40 m",
+    "skills_required": [
+      [ "fabrication", 5 ],
+      [ "spellcraft", 4 ],
+      [ "tailor", 2 ]
+    ],
+    "reversible": false,
+
+    "autolearn": false,
+    "book_learn": [
+      [ "magic_armormaking" , 6 ],
+      [ "bulette_bullet_theory" , 8 ]
+    ],
+
+    "qualities": [
+      { "id": "HAMMER" , "level": 3 },
+      { "id": "SANDING" , "level": 2 },
+      { "id": "FILE" , "level": 2 },
+      
+      { "id": "GLARE", "level": 2 }
+    ],
+    "tools": [ 
+      [ [ "welder", 10 ], [ "toolset", 15 ], [ "oxy_torch", 2 ] ]
+    ] ,
+    "components": [
+      [ [ "shield_bulette_light", 1 ] ],
+
+      [ [ "alloy_sheet", 1 ] ]
+    ]
+  },
+
+  {
+    "result": "shield_bulette_orichalcum_heavy",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SHIELD",
+
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "time": "2 h",
+    "skills_required": [
+      [ "fabrication", 7 ],
+      [ "spellcraft", 4 ],
+      [ "tailor", 2 ]
+    ],
+    "reversible": false,
+
+    "autolearn": false,
+    "book_learn": [
+      [ "magic_armormaking" , 6 ],
+      [ "bulette_bullet_theory" , 8 ]
+    ],
+
+    "qualities": [
+      { "id": "CUT" , "level": 1 },
+      { "id": "LEATHER_AWL", "level": 1 },
+      { "id": "HAMMER" , "level": 3 },
+
+      { "id": "CHISEL" , "level": 3 },
+      { "id": "SANDING" , "level": 2 },
+      { "id": "FILE" , "level": 2 },
+      
+      { "id": "GLARE", "level": 2 },
+      
+      { "id": "ANVIL", "level": 3 },
+      { "id": "GRIP_HOT", "level": 2 },
+      { "id": "CONTAIN_HOT", "level": 1 },
+      { "id": "SWAGING", "level": 1 }
+    ],
+    "tools": [ 
+      [ [ "welder", 10 ], [ "toolset", 15 ], [ "oxy_torch", 2 ] ],
+      [ [ "forge", 20 ], [ "oxy_torch", 20 ] ]
+    ] ,
+    "components": [
+      [ [ "bulette_plate", 1 ] ],
+      [ [ "bulette_pearl", 1 ] ],
+
+      [ [ "alloy_sheet", 3 ] ],
+      [ [ "orichalcum_ingot", 6 ] ],
+
+      [ [ "nail", 4 ] ],
+      [ [ "leather", 4 ] ]
+    ]
+  },
+  {
+    "result": "shield_bulette_orichalcum_heavy",
+    "id_suffix": "_upgrade_orichalcum",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SHIELD",
+
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "1 h",
+    "skills_required": [
+      [ "fabrication", 7 ],
+      [ "spellcraft", 4 ],
+      [ "tailor", 2 ]
+    ],
+    "reversible": false,
+
+    "autolearn": false,
+    "book_learn": [
+      [ "magic_armormaking" , 6 ],
+      [ "bulette_bullet_theory" , 8 ]
+    ],
+
+    "qualities": [
+      { "id": "HAMMER" , "level": 3 },
+      { "id": "CHISEL" , "level": 3 },
+      { "id": "ANVIL", "level": 3 },
+      { "id": "GRIP_HOT", "level": 2 },
+      { "id": "CONTAIN_HOT", "level": 1 },
+      { "id": "SWAGING", "level": 1 }
+    ],
+    "tools": [ 
+      [ [ "forge", 20 ], [ "oxy_torch", 20 ] ]
+    ] ,
+    "components": [
+      [ [ "shield_bulette_alloy_heavy", 1 ] ],
+
+      [ [ "orichalcum_ingot", 6 ] ]
+    ]
+  },
+  {
+    "result": "shield_bulette_orichalcum_medium",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SHIELD",
+
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "time": "2 h 20 m",
+    "skills_required": [
+      [ "fabrication", 7 ],
+      [ "spellcraft", 4 ],
+      [ "tailor", 2 ]
+    ],
+    "reversible": false,
+
+    "autolearn": false,
+    "book_learn": [
+      [ "magic_armormaking" , 6 ],
+      [ "bulette_bullet_theory" , 8 ]
+    ],
+
+    "qualities": [
+      { "id": "CUT" , "level": 1 },
+      { "id": "LEATHER_AWL", "level": 1 },
+      { "id": "HAMMER" , "level": 3 },
+
+      { "id": "CHISEL" , "level": 3 },
+      { "id": "SANDING" , "level": 2 },
+      { "id": "FILE" , "level": 2 },
+      
+      { "id": "GLARE", "level": 2 },
+      
+      { "id": "ANVIL", "level": 3 },
+      { "id": "GRIP_HOT", "level": 2 },
+      { "id": "CONTAIN_HOT", "level": 1 },
+      { "id": "SWAGING", "level": 1 }
+    ],
+    "tools": [ 
+      [ [ "welder", 10 ], [ "toolset", 15 ], [ "oxy_torch", 2 ] ],
+      [ [ "forge", 20 ], [ "oxy_torch", 20 ] ]
+    ] ,
+    "components": [
+      [ [ "bulette_plate", 1 ] ],
+      [ [ "bulette_pearl", 1 ] ],
+
+      [ [ "alloy_sheet", 2 ] ],
+      [ [ "orichalcum_ingot", 4 ] ],
+
+      [ [ "nail", 4 ] ],
+      [ [ "leather", 4 ] ]
+    ]
+  },
+  {
+    "result": "shield_bulette_orichalcum_medium",
+    "id_suffix": "_upgrade_orichalcum",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SHIELD",
+
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "1 h",
+    "skills_required": [
+      [ "fabrication", 7 ],
+      [ "spellcraft", 4 ],
+      [ "tailor", 2 ]
+    ],
+    "reversible": false,
+
+    "autolearn": false,
+    "book_learn": [
+      [ "magic_armormaking" , 6 ],
+      [ "bulette_bullet_theory" , 8 ]
+    ],
+
+    "qualities": [
+      { "id": "HAMMER" , "level": 3 },
+      { "id": "CHISEL" , "level": 3 },
+      { "id": "ANVIL", "level": 3 },
+      { "id": "GRIP_HOT", "level": 2 },
+      { "id": "CONTAIN_HOT", "level": 1 },
+      { "id": "SWAGING", "level": 1 }
+    ],
+    "tools": [ 
+      [ [ "forge", 20 ], [ "oxy_torch", 20 ] ]
+    ] ,
+    "components": [
+      [ [ "shield_bulette_alloy_medium", 1 ] ],
+
+      [ [ "orichalcum_ingot", 4 ] ]
+    ]
+  },
+  {
+    "result": "shield_bulette_orichalcum_light",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SHIELD",
+
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "time": "2 h 40 m",
+    "skills_required": [
+      [ "fabrication", 7 ],
+      [ "spellcraft", 4 ],
+      [ "tailor", 2 ]
+    ],
+    "reversible": false,
+
+    "autolearn": false,
+    "book_learn": [
+      [ "magic_armormaking" , 6 ],
+      [ "bulette_bullet_theory" , 8 ]
+    ],
+
+    "qualities": [
+      { "id": "CUT" , "level": 1 },
+      { "id": "LEATHER_AWL", "level": 1 },
+      { "id": "HAMMER" , "level": 3 },
+
+      { "id": "CHISEL" , "level": 3 },
+      { "id": "SANDING" , "level": 2 },
+      { "id": "FILE" , "level": 2 },
+      
+      { "id": "GLARE", "level": 2 },
+      
+      { "id": "ANVIL", "level": 3 },
+      { "id": "GRIP_HOT", "level": 2 },
+      { "id": "CONTAIN_HOT", "level": 1 },
+      { "id": "SWAGING", "level": 1 }
+    ],
+    "tools": [ 
+      [ [ "welder", 10 ], [ "toolset", 15 ], [ "oxy_torch", 2 ] ],
+      [ [ "forge", 20 ], [ "oxy_torch", 20 ] ]
+    ] ,
+    "components": [
+      [ [ "bulette_plate", 1 ] ],
+      [ [ "bulette_pearl", 1 ] ],
+
+      [ [ "alloy_sheet", 1 ] ],
+      [ [ "orichalcum_ingot", 2 ] ],
+
+      [ [ "nail", 4 ] ],
+      [ [ "leather", 4 ] ]
+    ]
+  },
+  {
+    "result": "shield_bulette_orichalcum_light",
+    "id_suffix": "_upgrade_orichalcum",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SHIELD",
+
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "1 h",
+    "skills_required": [
+      [ "fabrication", 7 ],
+      [ "spellcraft", 4 ],
+      [ "tailor", 2 ]
+    ],
+    "reversible": false,
+
+    "autolearn": false,
+    "book_learn": [
+      [ "magic_armormaking" , 6 ],
+      [ "bulette_bullet_theory" , 8 ]
+    ],
+
+    "qualities": [
+      { "id": "HAMMER" , "level": 3 },
+      { "id": "CHISEL" , "level": 3 },
+      { "id": "ANVIL", "level": 3 },
+      { "id": "GRIP_HOT", "level": 2 },
+      { "id": "CONTAIN_HOT", "level": 1 },
+      { "id": "SWAGING", "level": 1 }
+    ],
+    "tools": [ 
+      [ [ "forge", 20 ], [ "oxy_torch", 20 ] ]
+    ] ,
+    "components": [
+      [ [ "shield_bulette_alloy_light", 1 ] ],
+
+      [ [ "orichalcum_ingot", 2 ] ]
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "ars_tweaks_magical_nights",
+    "name": "<color_pink>Ars Tweaks</color>/Magical Nights Patchmod",
+    "authors": [ "Arisu-sensei" ],
+    "description": "Adds several small (and potentially severely unbalanced) tweaks, new recipes and more. For Magical Nights.",
+    "category": "content",
+    "dependencies": [ "bn", "ars_tweaks", "MagicalNights" ]
+  }
+]

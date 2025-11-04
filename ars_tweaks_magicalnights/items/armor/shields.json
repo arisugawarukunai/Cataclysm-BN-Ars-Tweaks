@@ -1,0 +1,327 @@
+[
+  {
+    "id": "shield_bulette_heavy",
+    "type": "ARMOR",
+    "name": { "str": "heavy bulette shield" },
+    "description": "A large heavy shield, made out of a bulette head plate.\nNot much has been done to process the plate besides sanding and nailing a few leather straps to it.\nThe image of an eye has been carved out in its center, and a bulette pearl has been used as the iris - it casts a terrifying gaze.",
+
+    "weight": "30 kg",
+    "volume": "3000 ml",
+    "price_postapoc": 2500,
+
+    "to_hit": -2,
+    "bashing": 15,
+    "//": "calc logic: 3 layers of stone, 2 layers of heavy bone",
+    "resistance": {
+      "cut": 28, 
+      "bash": 24,
+      "stab": 23,
+      "acid": 0,
+      "bullet": 23,
+      "heat": 0
+    },
+
+    "material": [ "stone", "bone_heavy" ],
+    "looks_like": "shield_leather_large",
+    "symbol": "[",
+    "color": "light_gray",
+    
+    "covers": [ "arm_either", "hand_either" ],
+    "coverage": 100,
+    "encumbrance": 30,
+    "material_thickness": 5,
+    "techniques": [
+      "WBLOCK_3"
+    ],
+
+    "flags": [
+      "OVERSIZE",
+      "BLOCK_WHILE_WORN",
+      "BELTED",
+      "ONLY_ONE",
+      "RESTRICT_HANDS",
+      "STURDY",
+      "POWERARMOR_COMPATIBLE"
+    ]
+  },
+  {
+    "id": "shield_bulette_medium",
+    "type": "ARMOR",
+    "name": { "str": "bulette shield" },
+    "description": "A medium sized heavy shield, made out of a bulette head plate.\nSome of the stony bone has been sanded down and the sides have been broken off into jagged edges that look like they would hurt.\nThe image of an eye has been carved out in its center, and a bulette pearl has been used as the iris - it casts a terrifying gaze.",
+
+    "weight": "25 kg",
+    "volume": "2500 ml",
+    "price_postapoc": 2000,
+
+    "to_hit": -1,
+    "bashing": 12,
+    "cutting": 10,
+    "//": "calc logic: 3 layers of stone, 2 layers of heavy bone",
+    "resistance": {
+      "cut": 28, 
+      "bash": 24,
+      "stab": 23,
+      "acid": 0,
+      "bullet": 23,
+      "heat": 0
+    },
+
+    "material": [ "stone", "bone_heavy" ],
+    "looks_like": "shield_leather",
+    "symbol": "[",
+    "color": "light_gray",
+    
+    "covers": [ "arm_either", "hand_either" ],
+    "coverage": 75,
+    "encumbrance": 20,
+    "material_thickness": 5,
+    "techniques": [
+      "WBLOCK_2"
+    ],
+
+    "flags": [
+      "OVERSIZE",
+      "BLOCK_WHILE_WORN",
+      "BELTED",
+      "ONLY_ONE",
+      "RESTRICT_HANDS",
+      "STURDY",
+      "POWERARMOR_COMPATIBLE"
+    ]
+  },
+  {
+    "id": "shield_bulette_light",
+    "type": "ARMOR",
+    "name": { "str": "light bulette shield" },
+    "description": "A decievingly heavy yet small shield, made out of a bulette head plate.\nMost of the stony bone has been sanded down and the sides have been rounded , with jagged edges that look like they would hurt.\nThe image of an eye has been carved out in its center, and a bulette pearl has been used as the iris - it casts a terrifying gaze.",
+
+    "weight": "20 kg",
+    "volume": "2000 ml",
+    "price_postapoc": 1500,
+
+    "to_hit": 0,
+    "bashing": 8,
+    "cutting": 10,
+    "//": "calc logic: 3 layers of stone, 2 layers of heavy bone",
+    "resistance": {
+      "cut": 28, 
+      "bash": 24,
+      "stab": 23,
+      "acid": 0,
+      "bullet": 23,
+      "heat": 0
+    },
+
+    "material": [ "stone", "bone_heavy" ],
+    "looks_like": "shield_buckler",
+    "symbol": "[",
+    "color": "light_gray",
+    
+    "covers": [ "arm_either", "hand_either" ],
+    "coverage": 50,
+    "encumbrance": 10,
+    "material_thickness": 5,
+    "techniques": [
+      "WBLOCK_2"
+    ],
+
+    "flags": [
+      "OVERSIZE",
+      "BLOCK_WHILE_WORN",
+      "BELTED",
+      "ONLY_ONE",
+      "STURDY",
+      "POWERARMOR_COMPATIBLE"
+    ]
+  },
+  {
+    "id": "shield_bulette_alloy_heavy",
+    "copy-from": "shield_bulette_heavy",
+    "type": "ARMOR",
+    "name": { "str": "heavy superalloy bulette shield" },
+    "description": "A large hefty shield, made out of a bulette head plate. Much of the heavy stone layer has been filed down, revealing the bone plate beneath, and superalloy plates have been welded into it to improve weight distribution without sacrificing defense.\nDespite its lessened weight, it is far too big and awkward to properly use a two-handed weapon with.\nThe image of an eye has been carved out in its center, and a bulette pearl has been used as the iris - it casts a terrifying gaze.",
+
+    "proportional": {
+      "weight": 0.6,
+      "price_postapoc": 2
+    },
+
+    "//": "calc logic: 3 layers of superalloy, 2 layers of heavy bone",
+    "resistance": {
+      "cut": 28,
+      "bash": 24,
+      "stab": 23,
+      "acid": 0,
+      "bullet": 23,
+      "heat": 0
+    },
+
+    "material": [ "superalloy", "bone_heavy" ],
+    "symbol": "[",
+    "color": "light_gray",
+
+    "encumbrance": 25
+  },
+  {
+    "id": "shield_bulette_alloy_medium",
+    "copy-from": "shield_bulette_medium",
+    "type": "ARMOR",
+    "name": { "str": "superalloy bulette shield" },
+    "description": "A medium sized hefty shield, made out of a bulette head plate. Much of the heavy stone layer has been filed down, revealing the bone plate beneath, and superalloy plates have been welded into it to improve weight distribution without sacrificing defense.\nWith a better weight distribution, and by carving out a groove on the side, this shield can be used with two-handed weapons - although, it's still a bit awkward.\nThe image of an eye has been carved out in its center, and a bulette pearl has been used as the iris - it casts a terrifying gaze.",
+
+    "proportional": {
+      "weight": 0.6,
+      "price_postapoc": 2
+    },
+
+    "//": "calc logic: 3 layers of superalloy, 2 layers of heavy bone",
+    "resistance": {
+      "cut": 28,
+      "bash": 24,
+      "stab": 23,
+      "acid": 0,
+      "bullet": 23,
+      "heat": 0
+    },
+
+    "material": [ "superalloy", "bone_heavy" ],
+    "symbol": "[",
+    "color": "light_gray",
+
+    "encumbrance": 15,
+
+    "flags": [
+      "OVERSIZE",
+      "BLOCK_WHILE_WORN",
+      "BELTED",
+      "ONLY_ONE",
+      "STURDY",
+      "POWERARMOR_COMPATIBLE"
+    ]
+  },
+  {
+    "id": "shield_bulette_alloy_light",
+    "copy-from": "shield_bulette_light",
+    "type": "ARMOR",
+    "name": { "str": "light superalloy bulette shield" },
+    "description": "A heafty yet small shield, made out of a bulette head plate. Much of the heavy stone layer has been filed down, revealing the bone plate beneath, and superalloy plates have been welded into it to improve weight distribution without sacrificing defense.\nThe round design ,with a much lighter weight, makes this the perfect tool for parrying, while also being able to protect oneself from danger.\nThe image of an eye has been carved out in its center, and a bulette pearl has been used as the iris - it casts a terrifying gaze.",
+
+    "proportional": {
+      "weight": 0.6,
+      "price_postapoc": 2
+    },
+
+    "//": "calc logic: 3 layers of superalloy, 2 layers of heavy bone",
+    "resistance": {
+      "cut": 28,
+      "bash": 24,
+      "stab": 23,
+      "acid": 0,
+      "bullet": 23,
+      "heat": 0
+    },
+
+    "material": [ "superalloy", "bone_heavy" ],
+    "symbol": "[",
+    "color": "light_gray",
+
+    "encumbrance": 5
+  },
+  {
+    "id": "shield_bulette_orichalcum_heavy",
+    "copy-from": "shield_bulette_heavy",
+    "type": "ARMOR",
+    "name": { "str": "heavy orichalcum bulette shield" },
+    "description": "A large hefty shield, made out of a bulette head plate. Much of the heavy stone layer has been filed down, superalloy plates have been welded into it, and further reinforced with orichalcum.\nThe design has been further improved, and looks more like a proper shield than a bone plate. It shimmers with magical potential.\nThe image of an eye has been carved out in its center, and a bulette pearl has been used as the iris - it casts a terrifying gaze.",
+
+    "proportional": {
+      "weight": 0.8,
+      "price_postapoc": 8
+    },
+
+    "//": "calc logic: 2 layers of orichalcum, 2 layers of superalloy, 2 layers of heavy bone",
+    "resistance": {
+      "cut": 62,
+      "bash": 44,
+      "stab": 50,
+      "acid": 0,
+      "bullet": 50,
+      "heat": 0
+    },
+
+    "material": [ "superalloy", "orichalcum_metal", "bone_heavy" ],
+    "symbol": "[",
+    "color": "light_green",
+
+    "encumbrance": 25,
+    "material_thickness": 3
+  },
+  {
+    "id": "shield_bulette_orichalcum_medium",
+    "copy-from": "shield_bulette_medium",
+    "type": "ARMOR",
+    "name": { "str": "orichalcum bulette shield" },
+    "description": "A medium sized hefty shield, made out of a bulette head plate. Much of the heavy stone layer has been filed down, superalloy plates have been welded into it, and further reinforced with orichalcum.\nWith a better weight distribution, and by carving out a groove on the side, this shield can be used with two-handed weapons. It shimmers with magical potential.\nThe image of an eye has been carved out in its center, and a bulette pearl has been used as the iris - it casts a terrifying gaze.",
+
+    "proportional": {
+      "weight": 0.8,
+      "price_postapoc": 8
+    },
+
+    "//": "calc logic: 2 layers of orichalcum, 2 layers of superalloy, 2 layers of heavy bone",
+    "resistance": {
+      "cut": 62,
+      "bash": 44,
+      "stab": 50,
+      "acid": 0,
+      "bullet": 50,
+      "heat": 0
+    },
+
+    "material": [ "superalloy", "orichalcum_metal", "bone_heavy" ],
+    "symbol": "[",
+    "color": "light_green",
+
+    "encumbrance": 15,
+    "material_thickness": 3,
+
+    "flags": [
+      "OVERSIZE",
+      "BLOCK_WHILE_WORN",
+      "BELTED",
+      "ONLY_ONE",
+      "STURDY",
+      "POWERARMOR_COMPATIBLE"
+    ]
+  },
+  {
+    "id": "shield_bulette_orichalcum_light",
+    "copy-from": "shield_bulette_light",
+    "type": "ARMOR",
+    "name": { "str": "light orichalcum bulette shield" },
+    "description": "A heafty yet small shield, made out of a bulette head plate. Much of the heavy stone layer has been filed down, superalloy plates have been welded into it, and further reinforced with orichalcum.\nThe round design ,with a much lighter weight, makes this the perfect tool for parrying, while also being able to protect oneself from danger. It shimmers with magical potential.\nThe image of an eye has been carved out in its center, and a bulette pearl has been used as the iris - it casts a terrifying gaze.",
+
+    "proportional": {
+      "weight": 0.8,
+      "price_postapoc": 8
+    },
+
+    "//": "calc logic: 2 layers of orichalcum, 2 layers of superalloy, 2 layers of heavy bone",
+    "resistance": {
+      "cut": 62,
+      "bash": 44,
+      "stab": 50,
+      "acid": 0,
+      "bullet": 50,
+      "heat": 0
+    },
+
+    "material": [ "superalloy", "orichalcum_metal", "bone_heavy" ],
+    "symbol": "[",
+    "color": "light_green",
+
+    "encumbrance": 5,
+    "material_thickness": 3
+  }
+]

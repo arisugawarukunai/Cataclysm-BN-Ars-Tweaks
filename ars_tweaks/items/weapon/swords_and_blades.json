@@ -1,0 +1,12 @@
+[
+    {
+    "id": "kukri",
+    "copy-from": "kukri",
+    "type": "GENERIC",
+    "name": {"str": "kukhuri"},
+    "thrown_damage": [
+      { "damage_type": "bash", "amount": 6 },
+      { "damage_type": "stab", "amount": 14 }
+    ]
+  }
+]

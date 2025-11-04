@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "ars_tweaks",
+    "name": "<color_pink>Ars Tweaks</color>",
+    "authors": [ "Arisu-sensei" ],
+    "description": "Adds several small (and potentially severely unbalanced) tweaks, new recipes and more.",
+    "category": "content",
+    "dependencies": [ "bn" ]
+  }
+]

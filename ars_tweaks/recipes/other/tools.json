@@ -1,0 +1,155 @@
+[
+  {
+    "type": "recipe",
+    "result": "toolbox_basic",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "10 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [ [ "2x4", 2 ] ],
+      [ [ "nail_glue", 11, "LIST" ] ],
+      [ [ "wire", 1 ] ],
+      [
+        [ "pockknife", 1 ],
+        [ "primitive_knife", 1 ],
+        [ "copper_knife", 1 ]
+      ],
+      [ [ "hammer", 1 ] ],
+      [ [ "multitool", 1 ] ],
+      [ [ "gloves_rubber", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "toolbox",
+    "id_suffix": "upgrading toolbox level 1",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "4 m",
+    "reversible": false,
+    "autolearn": true,
+    "components": [
+      [ [ "toolbox_basic", 1 ] ],
+      [ [ "sheet_metal_small", 5 ] ],
+      [ [ "screwdriver_set", 1 ] ],
+      [ [ "hacksaw", 1 ] ],
+      [ [ "wrench", 1 ] ],
+      [ [ "saw", 1 ] ],
+      [ [ "sandpaper", 1 ] ],
+      [ [ "hand_drill", 1 ] ]
+    ],
+    "byproducts": [ [ "2x4", 2 ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "toolbox_workshop",
+    "id_suffix": "upgrading toolbox level 2",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "4 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [ [ "toolbox", 1 ] ],
+      [ [ "metal_file", 1 ] ],
+      [ [ "pin_reamer", 1 ] ],
+      [ [ "clamp", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "toolbox_engineer",
+    "id_suffix": "upgrading toolbox level 3",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "4 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [ [ "toolbox_workshop", 1 ] ],
+      [ [ "picklocks", 1 ] ],
+      [ [ "makeshift_hose", 1 ], [ "hose", 1 ] ],
+      [ [ "pliers", 1 ] ],
+      [ [ "voltmeter", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "toolbox_advanced",
+    "id_suffix": "upgrading toolbox level 4",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [ [ "alloy_sheet", 4 ] ],
+      [ [ "toolbox_engineer", 1 ] ],
+      [ [ "hand_pump", 1 ] ],
+      [ [ "angle_grinder", 1 ] ],
+      [ [ "jack", 1 ] ],
+      [ [ "pipe", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "toolbox_backpack",
+    "id_suffix": "upgrading toolbox level 5",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "skills_required": [
+      [ "survival", 4 ],
+      [ "electronics", 2 ],
+      [ "tailor", 4 ]
+    ],
+    "time": "30 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [ [ "alloy_sheet", 8 ] ],
+      [ [ "toolbox_advanced", 1 ] ],
+      [ [ "halligan" , 1 ] ],
+      [ [ "e_tool", 1 ] ],
+      [ [ "large_repairkit", 1 ] ],
+      [ [ "survivor_mess_kit", 1 ] ],
+      [ [ "butchering_kit", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "forge_kit",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "4 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [ [ "sheet_metal_small", 5 ] ],
+      [ [ "nail_glue", 11, "LIST" ] ],
+      [ [ "wire", 1 ] ],
+      
+      [ [ "swage", 1] ],
+      [ [ "tongs", 1 ] ],
+      [ [ "crucible_clay", 1 ] ],
+      [ [ "hammer", 1 ] ],
+
+      [ [ "gloves_leather", 1 ] ]
+    ]
+  }
+]
