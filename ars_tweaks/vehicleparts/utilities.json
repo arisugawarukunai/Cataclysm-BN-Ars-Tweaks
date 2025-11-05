@@ -1,0 +1,153 @@
+[
+  {
+    "abstract": "analab_abstract",
+    "breaks_into": [
+      { "count": [ 4, 7 ], "item": "steel_lump" },
+      { "count": [ 4, 7 ], "item": "steel_chunk" },
+      { "count": [ 4, 7 ], "item": "scrap" },
+      { "charges": [ 30, 50 ], "item": "cable" },
+      { "charges": 0, "item": "chemistry_set", "prob": 50 },
+      { "charges": 0, "item": "hotplate", "prob": 50 },
+      { "charges": 0, "item": "analytical_set_basic", "prob": 50 },
+      { "charges": 0, "item": "microcentrifuge", "prob": 50 }
+    ],
+    "broken_color": "light_gray",
+    "broken_symbol": "x",
+    "color": "yellow",
+    "damage_modifier": 10,
+    "damage_reduction": { "all": 19 },
+    "description": "An upgraded onboard chemistry lab, now with a microcentrifuge and analysis kit, for more complex chemistry tasks.  'e'xamine the tile with the chemistry lab to access the water faucet or to heat up food with the hotplate.  If you attempt to craft an item that needs one of the chemistry lab's functions, it will automatically be selected as a tool.",
+    "durability": 80,
+    "flags": [ "CARGO", "OBSTACLE", "CRAFTER", "FAUCET", "COVERED" ],
+    "integrated_tools": [ "chemistry_set", "electrolysis_kit", "analytical_set_basic", "microcentrifuge" ],
+    "item": "analab",
+    "location": "center",
+    "looks_like": "f_workbench",
+    "name": { "str": "onboard analysis lab" },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 4 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 2 ] ]
+      }
+    },
+    "size": "50 L",
+    "symbol": "&",
+    "type": "vehicle_part"
+  },
+  {
+    "abstract": "advlab_abstract",
+    "breaks_into": [
+      { "count": [ 4, 7 ], "item": "steel_lump" },
+      { "count": [ 4, 7 ], "item": "steel_chunk" },
+      { "count": [ 4, 7 ], "item": "scrap" },
+      { "charges": [ 30, 50 ], "item": "cable" },
+      { "charges": 0, "item": "chemistry_set", "prob": 50 },
+      { "charges": 0, "item": "hotplate", "prob": 50 },
+      { "charges": 0, "item": "analytical_set_basic", "prob": 50 },
+      { "charges": 0, "item": "microcentrifuge", "prob": 50 },
+      { "charges": 0, "item": "still", "prob": 50 },
+      { "charges": 0, "item": "still_lab", "prob": 50 }
+    ],
+    "broken_color": "light_gray",
+    "broken_symbol": "x",
+    "color": "yellow",
+    "damage_modifier": 10,
+    "damage_reduction": { "all": 19 },
+    "description": "An advanced onboard chemistry lab, with everything one might need for chemistry experimentation, includes an autoclave for sterilisation.  'e'xamine the tile with the chemistry lab to access the water faucet, to heat up food with the hotplate, or to use the integrated autoclave.  If you attempt to craft an item that needs one of the chemistry lab's functions, it will automatically be selected as a tool.",
+    "durability": 80,
+    "flags": [ "CARGO", "OBSTACLE", "CRAFTER", "FAUCET", "COVERED", "AUTOCLAVE" ],
+    "integrated_tools": [ "chemistry_set", "electrolysis_kit", "analytical_set_basic", "microcentrifuge", "still", "still_lab" ],
+    "item": "advlab",
+    "location": "center",
+    "looks_like": "f_workbench",
+    "name": { "str": "onboard advanced lab" },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 4 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 2 ] ]
+      }
+    },
+    "size": "50 L",
+    "symbol": "&",
+    "type": "vehicle_part"
+  },
+
+  {
+    "abstract": "adv_kitchen_unit_abstract",
+    "breaks_into": [
+      { "count": [ 4, 7 ], "item": "steel_lump" },
+      { "count": [ 4, 7 ], "item": "steel_chunk" },
+      { "count": [ 4, 7 ], "item": "scrap" },
+      { "charges": 0, "item": "water_purifier", "prob": 50 },
+      { "charges": 0, "item": "vac_sealer", "prob": 50 },
+      { "charges": 0, "item": "dehydrator", "prob": 50 },
+      { "charges": 0, "item": "food_processor", "prob": 50 },
+      { "charges": 0, "item": "press", "prob": 50 }
+    ],
+    "broken_color": "light_gray",
+    "broken_symbol": "x",
+    "color": "light_green",
+    "damage_modifier": 10,
+    "damage_reduction": { "all": 20 },
+    "description": "A combined kitchen unit and FOODCO kitchen buddy.  You're not quite sure how you managed to fit everything together, but you somehow still did.  'e'xamine the tile with the advanced kitchen unit to access the water faucet, purify water in a vehicle tank or in a container in your inventory, or to heat food.  If you attempt to craft an item that needs one of the advanced kitchen unit's functions, it will automatically be selected as a tool.",
+    "durability": 80,
+    "flags": [ "CARGO", "OBSTACLE", "CRAFTER", "WATER_PURIFIER", "FAUCET", "COVERED", "FLAT_SURF" ],
+    "integrated_tools": [ "dehydrator", "vac_sealer", "food_processor", "press", "water_purifier", "pot", "pan", "hotplate" ],
+    "item": "adv_kitchen_unit",
+    "location": "center",
+    "looks_like": "f_sink",
+    "name": { "str": "advanced kitchen unit" },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 4 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 2 ] ]
+      }
+    },
+    "size": "50 L",
+    "symbol": "&",
+    "type": "vehicle_part"
+  },
+
+  {
+    "abstract": "veh_forge_abstract",
+    "breaks_into": [
+      { "count": [ 4, 5 ], "item": "steel_lump" },
+      { "count": [ 4, 6 ], "item": "steel_chunk" },
+      { "count": [ 4, 6 ], "item": "scrap" }
+    ],
+    "broken_color": "light_gray",
+    "broken_symbol": "x",
+    "color": "red",
+    "damage_modifier": 10,
+    "damage_reduction": { "all": 29 },
+    "description": "A conjoined forge rig and electric kiln, an anvil has been mounted for ease of use.  For almost any forging needs, with a hammer and other tools, you could use this for metalworking.  If you attempt to craft an item that needs a forge, you will be given the option of selecting it as a tool.",
+    "durability": 80,
+    "flags": [ "CARGO", "OBSTACLE", "CRAFTER" ],
+    "integrated_tools": [ "forge", "kiln", "anvil" ],
+    "item": "forgerig",
+    "location": "center",
+    "looks_like": "f_forge_rock",
+    "name": { "str": "mounted electric forge" },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 4 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 2 ] ]
+      }
+    },
+    "size": "50 L",
+    "symbol": "&",
+    "type": "vehicle_part"
+  }
+]

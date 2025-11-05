@@ -1,0 +1,32 @@
+[
+  {
+    "id": "analab",
+    "copy-from": "vehicle_rig",
+    "type": "GENERIC",
+    "name": { "str": "onboard analysis lab" },
+    "description": "An upgraded onboard chemistry lab, now with a microcentrifuge and analysis kit, for more complex chemistry tasks.  Unable to utilize standard batteries, it requires an external supply of electricity to operate."
+  },
+  {
+    "id": "advlab",
+    "copy-from": "vehicle_rig",
+    "type": "GENERIC",
+    "name": { "str": "onboard advanced lab" },
+    "description": "An advanced onboard chemistry lab, with everything one might need for chemistry experimentation, includes an autoclave for sterilisation.  Unable to utilize standard batteries, it requires an external supply of electricity to operate."
+  },
+
+  {
+    "id": "adv_kitchen_unit",
+    "copy-from": "vehicle_rig",
+    "type": "GENERIC",
+    "name": { "str": "advanced kitchen unit" },
+    "description": "A combined kitchen unit and FOODCO kitchen buddy.  You're not quite sure how you managed to fit everything together, but you somehow still did."
+  },
+
+  {
+    "id": "advforgerig",
+    "copy-from": "vehicle_rig",
+    "type": "GENERIC",
+    "name": { "str": "advanced vehicle forge rig" },
+    "description": "A conjoined forge rig and electric kiln, an anvil has been mounted for ease of use.  For almost any forging needs."
+  }
+]

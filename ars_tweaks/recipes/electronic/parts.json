@@ -1,0 +1,80 @@
+[
+  {
+    "type": "recipe",
+    "result": "analab",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "skill_used": "fabrication",
+    "skills_required": [ "electronics", 4 ],
+    "difficulty": 5,
+    "time": "1 h",
+    "reversible": true,
+    "decomp_learn": 3,
+    "book_learn": [ [ "textbook_fabrication", 3 ], [ "manual_fabrication", 3 ], [ "manual_electronics", 3 ], [ "manual_mechanics", 3 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SAW_M", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
+    "components": [
+      [ [ "chemlab", 1 ] ],
+      [ [ "analytical_set_basic", 1 ] ],
+      [ [ "microcentrifuge", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "advlab",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "skill_used": "fabrication",
+    "skills_required": [ "electronics", 5 ],
+    "difficulty": 6,
+    "time": "1 h",
+    "reversible": true,
+    "decomp_learn": 3,
+    "book_learn": [ [ "textbook_fabrication", 3 ], [ "manual_fabrication", 3 ], [ "manual_electronics", 3 ], [ "manual_mechanics", 3 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SAW_M", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
+    "components": [
+      [ [ "analab", 1 ] ],
+      [ [ "still", 1 ] ],
+      [ [ "still_lab", 1 ] ],
+      [ [ "vh_autoclave", 1 ] ]
+    ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "adv_kitchen_unit",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "skill_used": "fabrication",
+    "skills_required": [ "electronics", 6 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "decomp_learn": 3,
+    "book_learn": [ [ "textbook_fabrication", 3 ], [ "manual_fabrication", 3 ], [ "manual_electronics", 3 ], [ "manual_mechanics", 3 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
+    "components": [
+      [ [ "craftrig", 1 ] ],
+      [ [ "kitchen_unit", 1 ] ]
+    ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "advforgerig",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "skill_used": "fabrication",
+    "skills_required": [ "electronics", 6 ],
+    "difficulty": 6,
+    "time": "20 m",
+    "reversible": true,
+    "decomp_learn": 4,
+    "book_learn": [ [ "textbook_mechanics", 6 ], [ "textbook_electronics", 8 ], [ "textbook_fabrication", 8 ], [ "welding_book", 5 ] ],
+    "using": [ [ "soldering_standard", 10 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [ [ [ "forgerig", 1 ] ], [ [ "kilnrig", 1 ] ], [ [ "anvil", 1 ] ] ]
+  }
+]
