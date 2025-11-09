@@ -1,0 +1,14 @@
+[
+  {
+    "type": "recipe",
+    "result": "wood_panel",
+    "subcategory": "CSC_OTHER_PARTS",
+    "id_suffix": "from nailed planks",
+    "category": "CC_OTHER",
+    "skill_used": "fabrication",
+    "time": "10 m",
+    "autolearn": true,
+    "qualities": [ { "id": "SAW_W", "level": 2 }, { "id": "HAMMER", "level": 2 } ],
+    "components": [ [ [ "2x4", 4 ] ], [ [ "nail_glue", 18, "LIST" ] ] ]
+  }
+]
