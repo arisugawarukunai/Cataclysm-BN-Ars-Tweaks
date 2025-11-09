@@ -18,7 +18,7 @@ For JSON and Lua, this works like a normal mod, and can be added to a world thro
 
 ### .cpp files (only if compiling game yourself)
 
-Anything added to the /src folder are .cpp files that would be automatically loaded in. However, you ***CAN*** replace the file here with the one in the /src folder inside your repository clone.
+Anything added to the /src folder are .cpp files that **NOT** would be automatically loaded in. However, you ***CAN*** replace the files here with the ones in the /src folder, inside your repository clone.
 
 Warning that, while I don't push code that doesn't work, these changes are wildly unstable, may contain errors, and should be merged in your code with care. It is unwise to use this with your primary save.
 
