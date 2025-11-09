@@ -22,7 +22,7 @@
     "integrated_tools": [ "chemistry_set", "electrolysis_kit", "analytical_set_basic", "microcentrifuge" ],
     "item": "analab",
     "location": "center",
-    "looks_like": "f_workbench",
+    "looks_like": "f_chemlab",
     "name": { "str": "onboard analysis lab" },
     "requirements": {
       "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
@@ -62,7 +62,7 @@
     "integrated_tools": [ "chemistry_set", "electrolysis_kit", "analytical_set_basic", "microcentrifuge", "still", "still_lab" ],
     "item": "advlab",
     "location": "center",
-    "looks_like": "f_workbench",
+    "looks_like": "f_chemlab",
     "name": { "str": "onboard advanced lab" },
     "requirements": {
       "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
@@ -101,7 +101,7 @@
     "integrated_tools": [ "dehydrator", "vac_sealer", "food_processor", "press", "water_purifier", "pot", "pan", "hotplate" ],
     "item": "adv_kitchen_unit",
     "location": "center",
-    "looks_like": "f_sink",
+    "looks_like": "f_craftrig",
     "name": { "str": "advanced kitchen unit" },
     "requirements": {
       "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
@@ -133,10 +133,10 @@
     "durability": 80,
     "flags": [ "CARGO", "OBSTACLE", "CRAFTER" ],
     "integrated_tools": [ "forge", "kiln", "anvil" ],
-    "item": "forgerig",
+    "item": "advforgerig",
     "location": "center",
-    "looks_like": "f_forge_rock",
-    "name": { "str": "mounted electric forge" },
+    "looks_like": "f_forgerig",
+    "name": { "str": "mounted advanced forge" },
     "requirements": {
       "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
@@ -149,5 +149,34 @@
     "size": "50 L",
     "symbol": "&",
     "type": "vehicle_part"
+  },
+  
+  {
+    "copy-from": "analab_abstract",
+    "id": "analysis_lab",
+    "symbol": "&",
+    "type": "vehicle_part",
+    "looks_like": "chemlab"
+  },
+  {
+    "copy-from": "advlab_abstract",
+    "id": "advanced_lab",
+    "symbol": "&",
+    "type": "vehicle_part",
+    "looks_like": "chemlab"
+  },
+  {
+    "copy-from": "adv_kitchen_unit_abstract",
+    "id": "advanced_kitchen_unit",
+    "symbol": "&",
+    "type": "vehicle_part",
+    "looks_like": "craft_rig"
+  },
+  {
+    "copy-from": "veh_forge_abstract",
+    "id": "advanced_forge",
+    "symbol": "&",
+    "type": "vehicle_part",
+    "looks_like": "veh_forge"
   }
 ]
