@@ -1,5 +1,23 @@
 [
   {
+    "result": "peephole",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "skills_required": [ "mechanics", 2 ],
+    "time": "30 m",
+    "autolearn": true,
+    "using": [
+			[ "welding_standard", 1 ]
+		],
+		"components": [
+			[ [ "sheet_metal_small", 2 ] ],
+			[ [ "glass_shard", 2 ] ]
+		]
+	},
+  {
     "type": "recipe",
     "result": "wood_panel",
     "subcategory": "CSC_OTHER_PARTS",
