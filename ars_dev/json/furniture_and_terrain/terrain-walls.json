@@ -1,0 +1,95 @@
+[
+  {
+    "type": "terrain",
+    "id": "t_m_frame",
+    "name": "empty metal window frame",
+    "description": "An empty window frame constructed from assembled metal and carefully braced with various hardware.",
+    "symbol": ".",
+    "looks_like": "t_mdoor_frame",
+    "color": "dark_gray",
+    "move_cost": 2,
+    "roof": "t_flat_roof",
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "FLAT", "CONNECT_TO_WALL", "ROAD" ],
+    "bash": {
+      "str_min": 18,
+      "str_max": 75,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "ter_set": "t_null",
+      "items": [ { "item": "spike", "count": [ 2, 4 ] }, { "item": "scrap", "count": [ 3, 6 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_reinforced_glass",
+    "alias": [ "t_reinforced_glass_h", "t_reinforced_glass_v" ],
+    "name": "reinforced glass",
+    "description": "A thicker pane of glass with thin metal wires embedded throughout, strengthening the structural properties.  It's a lot stronger than drywall, but it's not made to support a roof and is weaker than concrete.",
+    "symbol": "LINE_OXOX",
+    "color": "light_cyan",
+    "move_cost": 0,
+    "roof": "t_flat_roof",
+    "flags": [ "TRANSPARENT", "NOITEM", "WALL", "SUPPORTS_ROOF", "NO_SCENT", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
+    "bash": {
+      "str_min": 80,
+      "str_max": 210,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "sound_vol": 20,
+      "sound_fail_vol": 14,
+      "ter_set": "t_floor",
+      "items": [ { "item": "glass_shard", "count": [ 3, 6 ] }, { "item": "wire", "prob": 20 } ],
+      "//": "reduction half str_min for ballistic-style glass, destroy_threshold equal to str_min for glass",
+      "ranged": { "reduction": [ 40, 40 ], "reduction_laser": [ 0, 8 ], "destroy_threshold": 80 }
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_reinforced_glass_shutter",
+    "name": "reinforced glass with closed shutters",
+    "description": "A secondary layer of protection over reinforced glass, these metal shutters are typically used to ward off criminals or protect against damage from extreme weather.  Looks like it can only be opened from the inside.  Even with the installed shutters, it isn't feasible in supporting a roof.",
+    "symbol": "LINE_OXOX",
+    "color": "light_gray",
+    "move_cost": 0,
+    "roof": "t_flat_roof",
+    "flags": [ "NOITEM", "WALL", "SUPPORTS_ROOF", "NO_SCENT", "AUTO_WALL_SYMBOL", "OPENCLOSE_INSIDE", "MINEABLE", "BLOCK_WIND" ],
+    "open": "t_reinforced_glass_shutter_open",
+    "bash": {
+      "str_min": 80,
+      "str_max": 210,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "sound_vol": 20,
+      "sound_fail_vol": 14,
+      "ter_set": "t_floor",
+      "items": [ { "item": "glass_shard", "count": [ 3, 6 ] }, { "item": "wire", "prob": 20 }, { "item": "scrap", "count": [ 3, 5 ] } ],
+      "//": "reduction half str_min for ballistic-style glass, destroy_threshold equal to str_min for glass",
+      "ranged": { "reduction": [ 40, 40 ], "reduction_laser": [ 1, 10 ], "destroy_threshold": 80 }
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_reinforced_glass_shutter_open",
+    "name": "reinforced glass with open shutters",
+    "looks_like": "t_reinforced_glass",
+    "description": "Hanging metal shutters that haven't been deployed, exposing the reinforced glass.  It appears as though the metal shutters can only be activated from the inside.",
+    "symbol": "LINE_OXOX",
+    "color": "light_cyan",
+    "move_cost": 0,
+    "roof": "t_flat_roof",
+    "flags": [ "TRANSPARENT", "NOITEM", "WALL", "SUPPORTS_ROOF", "NO_SCENT", "AUTO_WALL_SYMBOL", "OPENCLOSE_INSIDE", "MINEABLE", "BLOCK_WIND" ],
+    "close": "t_reinforced_glass_shutter",
+    "bash": {
+      "str_min": 80,
+      "str_max": 210,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "sound_vol": 20,
+      "sound_fail_vol": 14,
+      "ter_set": "t_floor",
+      "items": [ { "item": "glass_shard", "count": [ 3, 6 ] }, { "item": "wire", "prob": 20 }, { "item": "scrap", "count": [ 3, 5 ] } ],
+      "//": "reduction half str_min for ballistic-style glass, destroy_threshold equal to str_min for glass",
+      "ranged": { "reduction": [ 40, 40 ], "reduction_laser": [ 0, 8 ], "destroy_threshold": 80 }
+    }
+  }
+]
