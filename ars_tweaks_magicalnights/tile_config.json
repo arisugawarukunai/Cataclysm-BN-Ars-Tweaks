@@ -1,0 +1,40 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE" ],
+    "tiles-new": [
+      {
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "file": "gfx/ATMN_normal.png",
+        "//": "Range 0, 1 - 15",
+        "tiles": [
+          { "id": "halfmoon_glasses", "fg": 1, "rotates": false },
+          { "id": "overlay_wielded_halfmoon_glasses", "fg": 1, "rotates": false  },
+          { "id": "halfmoon_glasses_overlay", "fg": 2, "rotates": false  },
+          { "id": "overlay_wielded_halfmoon_glasses_overlay", "fg": 2, "rotates": false  },
+          { "id": "goth_dress", "fg": 3, "rotates": false  },
+          { "id": "overlay_wielded_goth_dress", "fg": 3, "rotates": false  },
+          { "id": "goth_dress_overlay", "fg": 4, "rotates": false  },
+          { "id": "overlay_wielded_goth_dress_overlay", "fg": 4, "rotates": false  },
+          { "id": "greater_wizard_hat", "fg": 5, "rotates": false  },
+          { "id": "overlay_wielded_greater_wizard_hat", "fg": 5, "rotates": false  },
+          { "id": "mycus_wizard_hat", "fg": 6, "rotates": false  },
+          { "id": "overlay_wielded_mycus_wizard_hat", "fg": 6, "rotates": false  }
+        ]
+      },
+      {
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": -16,
+        "file": "gfx/ATMN_normal_offset.png",
+        "//": "Range 16, 17 - 31",
+        "tiles": [
+          { "id": "overlay_worn_greater_wizard_hat", "fg": 17, "rotates": false  },
+          { "id": "overlay_worn_mycus_wizard_hat", "fg": 18, "rotates": false  }
+        ]
+      }
+    ]
+  }
+]

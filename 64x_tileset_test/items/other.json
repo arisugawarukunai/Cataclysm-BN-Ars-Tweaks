@@ -1,0 +1,17 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "blahaj",
+    "category": "other",
+    "symbol": "S",
+    "color": "cyan",
+    "name": { "str": "blahaj" },
+    "description": "A large blahaj, perfect for cuddles.",
+    "price": "22 USD",
+    "price_postapoc": "1 USD",
+    "material": [ "cotton" ],
+    "weight": "660 g",
+    "volume": "1230 ml",
+    "qualities": [ [ "SLEEP_AID", 3 ] ]
+  }
+]

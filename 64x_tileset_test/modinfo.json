@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "64x_tileset_test",
+    "name": "<color_pink>64x Tileset Test</color>",
+    "authors": [ "Arisu-sensei" ],
+    "description": "A simple testing group for a 64x tileset based on UDP.",
+    "category": "content",
+    "dependencies": [ "bn" ]
+  }
+]

@@ -27,6 +27,6 @@
     "time": "10 m",
     "autolearn": true,
     "qualities": [ { "id": "SAW_W", "level": 2 }, { "id": "HAMMER", "level": 2 } ],
-    "components": [ [ [ "2x4", 4 ] ], [ [ "nail_glue", 18, "LIST" ] ] ]
+    "components": [ [ [ "2x4", 2 ] ], [ [ "nail_glue", 6, "LIST" ] ] ]
   }
 ]

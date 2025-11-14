@@ -1,7 +1,7 @@
 [
   {
     "type": "construction",
-    "id": "constr_floor",
+    "id": "constr_wood_support",
     "group": "build_wood_support",
     "category": "CONSTRUCT",
     "required_skills": [ [ "fabrication", 3 ] ],

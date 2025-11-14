@@ -1,0 +1,23 @@
+[
+  {
+    "id": "goth_dress",
+    "type": "ARMOR",
+    "name": { "str": "goth dress", "str_pl": "goth dresses" },
+    "description": "A beautiful intricate black goth dress.  The apocalypse is no excuse to not be fashionable.",
+    "weight": "2000 g",
+    "volume": "18 L",
+    "price": "590 USD",
+    "price_postapoc": "50 cent",
+    "to_hit": -5,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "dress",
+    "color": "white",
+    "covers": [ "legs", "torso" ],
+    "coverage": 90,
+    "encumbrance": 45,
+    "warmth": 30,
+    "material_thickness": 2,
+    "flags": [ "VARSIZE", "SUPER_FANCY", "ALLOWS_TAIL_SNAKE", "ALLOWS_WINGS" ]
+  }
+]
